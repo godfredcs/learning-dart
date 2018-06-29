@@ -36,4 +36,11 @@ main(List<String> args) {
   print(dream);
   print(pie);
 
+  // We also have the "is" and "is!" and these are called the type checking operators.
+  bool isInt = pie is int;
+  print(isInt);
+
+  bool notString = dream is! String;
+  print(notString);
+
 }
