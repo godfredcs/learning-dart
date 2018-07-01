@@ -43,4 +43,12 @@ main(List<String> args) {
   bool notString = dream is! String;
   print(notString);
 
+
+  // Concatenation
+  // You can concatenate strings and other data types by using the dollar sign in the quotes like blow
+  print("Pie is: $pie"); // This done by placing the dollar sign infront of the variable pie inside the string.
+
+  // However if you'd want to perform other expressions on the variables during concatenation the you need to wrap the variable inside curly braces like below
+  print("my dream is very ${dream.toUpperCase()}");
+  print("Pie has been changed to ${pie * 5}");
 }
